@@ -1,0 +1,19 @@
+html {
+    --darkest: #191902;
+    --dark: #3F3F0F;
+    --medium: #7F7F3F;
+    --light: #BFBF8F;
+    --lightest: #E5E5CE;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--lightest);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#canvas {
+    background-color: var(--lightest);
+}
